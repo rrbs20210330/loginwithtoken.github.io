@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="center-align">Tabla con Datos Aleatorios</h2>
+        <div class="center-align">
+            <button class="waves-effect waves-light btn" onclick="cargarinfo()">Consultar información</button>
+        </div>
+        <table class="highlight centered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Dato Aleatorio</th>
+                </tr>
+            </thead>
+            <tbody id="tablaDatos">
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="js/consulta.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
